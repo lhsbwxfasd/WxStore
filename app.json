@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundColor": "#666",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "在线商城",
+    "navigationBarTextStyle":"white",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ff0000", 
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_select.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "images/logList.png",
+      "selectedIconPath": "images/logList_select.png"
+    }]
+  }
+}
