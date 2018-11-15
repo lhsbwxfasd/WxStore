@@ -1,3 +1,4 @@
 {
-	"navigationBarTitleText": "在线商城-首页"
+    "navigationBarTitleText": "小商城",
+    "enablePullDownRefresh": true
 }
